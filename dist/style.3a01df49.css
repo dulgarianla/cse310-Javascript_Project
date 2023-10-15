@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.game-board {
+  grid-gap: 5px;
+  grid-template-columns: repeat(3, 100px);
+  margin: 50px auto;
+  display: inline-grid;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  cursor: pointer;
+  border: 2px solid #333;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  font-size: 24px;
+  display: flex;
+}
+
+.cell.X {
+  color: #ff5722;
+}
+
+.cell.O {
+  color: #2196f3;
+}
+
+/*# sourceMappingURL=style.3a01df49.css.map */

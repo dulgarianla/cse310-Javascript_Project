@@ -1,0 +1,73 @@
+body {
+  font-family: Pixelify Sans, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.winner {
+  display: hidden;
+}
+
+.game-board {
+  grid-template-columns: 75px 75px 75px;
+  justify-content: center;
+  gap: 20px;
+  display: grid;
+}
+
+.box {
+  cursor: pointer;
+  background-color: #7fffd4;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  box-shadow: 5px 5px 5px #000;
+}
+
+.button-cont {
+  justify-content: center;
+  display: flex;
+}
+
+.button {
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.input {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.input:hover {
+  outline: none;
+}
+
+.wave {
+  border-radius: 40px 0;
+  transition: all .3s;
+}
+
+.waveA {
+  color: #00f;
+  background-color: #e0ffff;
+  border: 2px solid #5b81ff;
+  border-radius: 40px 0;
+  transition: all .3s;
+  box-shadow: 2px 2px 2px 1px #3c70ff33;
+}
+
+.waveA:hover {
+  border: 3px solid #0cf;
+  box-shadow: 12px 12px 2px 1px #3c70ff33;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
